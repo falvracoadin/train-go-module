@@ -1,0 +1,6 @@
+1. run rabbitmq on your local
+2. create new user with username : "skeleton" and password: "skeleton"
+3. create new vhost with vhost : "/skeleton"
+4. set permission access to vhost "/skeleton" add user "skeleton"
+5. run module go-skeleton-rabbitmq-manager "go run server.go"
+6. postman documentation api on this link "https://documenter.getpostman.com/view/18412295/UVJfiaWQ"
